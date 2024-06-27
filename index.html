@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Artist Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .artist-name {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .youtube {
+            background-color: #FF0000;
+        }
+        .spotify {
+            background-color: #1DB954;
+        }
+        .contact {
+            font-size: 1em;
+        }
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Artist Logo" class="logo">
+        <h1 class="artist-name">Artist Name</h1>
+        <div class="buttons">
+            <a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" class="button youtube">YouTube</a>
+            <a href="https://open.spotify.com/artist/YOUR_ARTIST_ID" target="_blank" class="button spotify">Spotify</a>
+        </div>
+        <div class="contact">
+            <p>Contact: <a href="mailto:artist@example.com">artist@example.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
